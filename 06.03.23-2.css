@@ -1,0 +1,38 @@
+td {
+    border: 3px solid;
+width: 200px;
+height: 60px;
+text-align: center;
+vertical-align: top;
+}
+
+table{
+    border: 1px solid;
+border-collapse: collapse;
+}
+
+.title{
+  background-color: #719ddc;
+font-weight: 600;
+}
+
+.title td{
+  vertical-align: middle;
+
+}
+
+div{
+  width: 100px;
+  height: 100px;
+    border: 2px solid;
+    display: inline-block;
+}
+
+div:first-child {
+    background-color: #56e3dd
+}
+div:last-child { background-color: #1c1ce3}
+
+div:nth-child(5) { background-color: #1c1ce3}
+
+div:nth-child(even){ background-color: #222222}
